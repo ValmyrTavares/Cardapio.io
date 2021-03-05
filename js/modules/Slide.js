@@ -14,5 +14,6 @@ export default class Slide{
 
     init(){
        this.addEvent()
+        console.log(this.img)
     }
 }
