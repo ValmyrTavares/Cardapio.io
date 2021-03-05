@@ -1,7 +1,11 @@
 import Slide from './modules/Slide.js'
+
 import AddEvent from './modules/AddingClickEvent.js'
+
 import OpenSession from './modules/OpenSession.js'
+
 import Showcases from './modules/ShowCases.js';
+
 import BeverageShowcase from './modules/BeverageShowcase.js';
 
 
