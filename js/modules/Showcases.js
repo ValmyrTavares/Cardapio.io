@@ -32,6 +32,6 @@ export default class Showcases{
         this.lanchesShowCase()
         this.pratosShowCase()
         this.porcoesShowCase()
-        console.log(this.produto)
+       
     }
 }
