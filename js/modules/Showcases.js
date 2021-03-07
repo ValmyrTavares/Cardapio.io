@@ -1,8 +1,8 @@
-import Modal from "./ShowcaseBuider.js"
+import ShowcaseBuider from "./ShowcaseBuider.js"
 import produto from "../data/Produtos.js"
 
 
-const showcasebuilder = new Modal()
+const showcasebuilder = new ShowcaseBuider()
 
 
 export default class Showcases{
