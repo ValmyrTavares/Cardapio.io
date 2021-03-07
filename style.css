@@ -8,9 +8,10 @@ header img{
 
 h1{
     background:#ccc;
-    padding: 5px;
+    padding: 9px;
     text-align:center;
     margin: 2px;
+    font-size: 1.4rem;
 }
 
 
@@ -59,7 +60,7 @@ section button{
     background: none;
     position: relative;
     top: 11px;
-    left: 241px;
+    left: 90%;
     font-size: 29px;
     border: none;
 }
@@ -96,5 +97,6 @@ section div p{
 [data-img] img{
     width:70%;
     margin:5px 15%;
+    max-height: 300px;
 }
 

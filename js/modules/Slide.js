@@ -3,13 +3,9 @@ export default class Slide{
         this.img = document.querySelectorAll('[data-img] img')
         this.index = 0
     }
-
     addEvent(){
-        this.changeImg()
-       
+        this.changeImg()       
     }    
-
-
     changeImg(){
         setInterval(()=>{
             this.index++;
@@ -17,14 +13,12 @@ export default class Slide{
                 item.classList.add('hide')            
                
                 
-                if(this.index>3)this.index=0
+                if(this.index>2)this.index=0
             })
             this.img[this.index].classList.remove('hide') 
             console.log(this.index)
         },3000)      
     }
-
-
 
     init(){
        this.addEvent()
