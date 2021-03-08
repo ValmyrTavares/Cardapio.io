@@ -1,4 +1,4 @@
-import produto from '../data/Produtos.js'
+//import produto from '../data/Produtos.js'
 
 export default class Modal{
     constructor(){   
