@@ -20,7 +20,7 @@ export default class Modal{
             this.li = `<div class='flex-int prod' img=${item.imagem}>
             <p style='display:none'>${item.fullDescription}
             </p><p>${item.nome}</p><span>${item.desc}</span>
-            <p> Valor ${item.preco}</p></div>`      
+            <p> Valor ${item.preco},00</p></div>`      
             div.innerHTML += this.li        
          })        
             container.appendChild(this.h4)          

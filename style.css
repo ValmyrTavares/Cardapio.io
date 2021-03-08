@@ -5,13 +5,19 @@ header img{
     width: 100%;
 }
 
+body{
+    background:#400e2af2;
+}
+
 
 h1{
-    background:#ccc;
+    background:#300e21f2;
     padding: 9px;
     text-align:center;
     margin: 2px;
     font-size: 1.4rem;
+    color:white;
+    font-family: monospace;
 }
 
 
@@ -25,13 +31,17 @@ h1{
 .flex-int{
     display:flex;
     justify-content:space-around;
-    align-items: center;
-    border:solid 1px black;
+    align-items: center;    
+    background:#cccccc40;
+    cursor: pointer;
+    margin:5px auto;
+    color:white;
+    font-family: arial;
 }
 
 .sub{
     text-align:center;
-    background:#cccccca3;
+    background:#cccccc61;
     width: 50%;
     margin: 10px auto;
     padding:7px 0;
@@ -44,8 +54,7 @@ h1{
 .pratos div{
     display:flex;
     justify-content:space-around;
-    align-items: center;
-    border:solid 1px black;   
+    align-items: center;     
 }
 
 
@@ -54,12 +63,12 @@ span, p{
 }
 section{
     width: 80%;  
-    background:#ccc;
+    background:#2f081e;
     position:fixed;
     top:50px;
     left:10%;
     display:none;
-    color:black;
+    color:white;
 }
 .show-modal{
     display:block;
@@ -71,6 +80,7 @@ section button{
     left: 90%;
     font-size: 29px;
     border: none;
+    color:white;
 }
 section div img{
     width: 80%;
@@ -79,7 +89,7 @@ section div img{
 section div h2{
     text-align: center;
     margin:0 5px;
-    font-size: 13vw;
+    font-size: 11vw;
 }
 section div p{   
     text-align: center;
