@@ -29,6 +29,14 @@ h1{
     border:solid 1px black;
 }
 
+.sub{
+    text-align:center;
+    background:#cccccca3;
+    width: 50%;
+    margin: 10px auto;
+    padding:7px 0;
+}
+
    
 
 

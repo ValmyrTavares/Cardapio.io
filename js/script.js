@@ -4,7 +4,7 @@ import AddEvent from './modules/AddingClickEvent.js'
 
 import OpenSession from './modules/OpenSession.js'
 
-import Showcases from './modules/ShowCases.js';
+//import Showcases from './modules/ShowCases.js';
 
 import BeverageShowcase from './modules/BeverageShowcase.js';
 
@@ -18,8 +18,8 @@ slide.init();
 const beverage = new BeverageShowcase();
 beverage.init();
 
-const showcase = new Showcases()
-showcase.init()
+// const showcase = new Showcases()
+// showcase.init()
 
 const ev = new AddEvent()
 ev.init()

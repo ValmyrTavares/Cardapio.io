@@ -11,7 +11,7 @@ export default class Modal{
     createTags(container,label, obj ){        
        
         this.h4 = document.createElement('h4')
-        this.h4.setAttribute('class','target')
+        this.h4.setAttribute('class','target sub')
         this.h4.innerHTML = label
        
         const div = document.createElement('div')
